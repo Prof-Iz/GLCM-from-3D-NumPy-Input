@@ -83,5 +83,5 @@ return results / levels**2
 Lastly the `2 dims` Matrix is returned after being divided by the square of levels to fulfill the formula requirements for
 
 $$\frac{1}{N}\cdot P(i,j)$$
-where $N$ is the number of possible pairs ($levels}^2$)
+where $N$ is the number of possible pairs ($levels^2$)
 
