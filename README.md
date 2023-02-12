@@ -14,7 +14,7 @@ If you have any suggestions or find issues feel free to make a pull request!
 Refer to [python file](https://github.com/Prof-Iz/GLCM-from-3D-NumPy-Input/blob/master/glcm_3d.py) for full code. Below is just explanation of my code.
 
 ```python
-glcm_3d(input, delta: tuple[int] = (1, 1, 1), d: int = 1)
+glcm_3d(input: np.ndarray, delta: tuple[int] = (1, 1, 1), d: int = 1):
 ```
 `input` is a 3D `numpy ndarray` of `dtype` **int**.
 
