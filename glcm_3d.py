@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
     # test_array = np.random.randint(0, 2, (2, 2, 2))
     test_array = np.array([[[1, 1], [1, 1]], [[0, 0], [1, 1]]])
-    # test_array_2 = np.random.random((10,10,10))
+    test_array_2 = np.random.randint(0,5,(250,250,140))
     result = glcm_3d(test_array, delta=(1, 0, 0))
-    result_2 = glcm_3d(test_array, delta=(1, 1, 0), d=2)
+
 # %%
