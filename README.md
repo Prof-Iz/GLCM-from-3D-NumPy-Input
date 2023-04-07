@@ -1,3 +1,6 @@
+>Note:
+>Best to use implementation in numba_glcm_3d as it is several magnitudes faster. Methodology is same as in base version.
+
 # Generating GLCM for a 3D Input
 
 Grey Level Co-occurrence Matrices (GLCMs) is a statistical texture analysis method used to **characterize the texture of an image**. It involves the creation of a matrix that describes the statistical relationship between pairs of pixels that have a specified spatial relationship and intensity value (grey level).
